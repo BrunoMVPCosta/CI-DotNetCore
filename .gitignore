@@ -184,6 +184,8 @@ _pkginfo.txt
 
 # Others
 ClientBin/
+bin/
+obj/
 ~$*
 *~
 *.dbmdl
@@ -250,3 +252,8 @@ paket-files/
 # JetBrains Rider
 .idea/
 *.sln.iml
+
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
